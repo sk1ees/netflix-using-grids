@@ -233,7 +233,7 @@ hr {
 .tab_content {
   max-height: 0rem;
   overflow: hidden;
-
+ 
   margin-bottom: 10px;
   margin: 5px 20vw;
   color: white;
@@ -251,7 +251,7 @@ hr {
 }
 .tab input:checked + .tab_label::after {
   transform: rotate(45deg);
-  transition: none;
+  transition: 0.3s;
 }
 .faqQuestions {
   font-size: 27px;
@@ -273,6 +273,7 @@ hr {
 .tab_label::after {
   content: "\002B";
   font-size: 50px;
+  transition: 0.3s;
 }
 .tab_label:hover {
   background-color: rgb(71, 71, 71);
@@ -282,7 +283,7 @@ hr {
 }
 .sixthSections p {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 27px;
 }
 .footer {
   width: 100%;
