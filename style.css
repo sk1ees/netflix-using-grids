@@ -103,6 +103,9 @@ section p {
   color: white;
   font-size: 20px;
 }
+.getStarted input:focus{
+  border: 2px solid white;
+}
 .getStarted button {
   width: 10vw;
   height: 4vw;
