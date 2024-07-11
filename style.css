@@ -184,7 +184,7 @@ hr {
   height: 110px;
   background-color: black;
   position: absolute;
-  top: 75%;
+  top: 73%;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
@@ -280,6 +280,9 @@ hr {
 }
 .sixthSections {
   height: auto;
+}
+button{
+  cursor: pointer;
 }
 .sixthSections p {
   margin-bottom: 20px;
